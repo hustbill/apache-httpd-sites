@@ -1,0 +1,6 @@
+
+I had to install cpanm in /usr/local/bin:
+curl -L https://cpanmin.us | perl - --sudo App::cpanminus
+
+Then I had to install JSON module:
+sudo /usr/local/bin/cpanm install JSON
